@@ -5,7 +5,6 @@ V：Docer01
 
 import numpy as np
 import matplotlib
-
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -13,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # 1. 数据加载：加载波士顿房屋数据集
-df = pd.read_csv('data/boston.csv', header=None, sep='\s+')
+df = pd.read_csv('../../data/boston/boston.csv', header=None, sep='\s+')
 df.columns = ['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM', 'AGE', 'DIS', 'RAD', 'TAX', 'PTRATIO', 'B', 'LSTAT', 'MEDV']
 
 # 2. 数据准备：分割数据集，横向分为特征（X）和目标变量（y），纵向分为训练集和测试集

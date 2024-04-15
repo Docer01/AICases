@@ -1,7 +1,6 @@
 """
-功能：读取数据，遍历展示各个字段之间的热力图。
 作者：道客儿
-微信：Docer01
+V：Docer01
 """
 
 import numpy as np

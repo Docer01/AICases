@@ -1,3 +1,7 @@
+"""
+作者：道客儿
+V：Docer01
+"""
 
 # Counter 可用来统计文本中每个字的数量
 from collections import Counter

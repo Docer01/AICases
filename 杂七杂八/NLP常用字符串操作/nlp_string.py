@@ -1,3 +1,8 @@
+"""
+作者：道客儿
+V：Docer01
+"""
+
 # 1、大小写转换
 # print("meng xiao XIN".upper())       # 字符串转换为大写
 # print("meng xiao XIN".lower())       # 字符串转换为小写

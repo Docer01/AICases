@@ -1,3 +1,8 @@
+"""
+作者：道客儿
+V：Docer01
+"""
+
 from sklearn import datasets  # 引入数据集
 import matplotlib.pyplot as plt
 import matplotlib
